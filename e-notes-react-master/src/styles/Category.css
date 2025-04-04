@@ -1,0 +1,13 @@
+h4{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+label{
+    font-weight: bold;
+}
+
+.Navlink{
+    color: inherit; 
+    text-decoration: none; 
+}

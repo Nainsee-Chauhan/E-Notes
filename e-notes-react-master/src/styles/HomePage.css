@@ -1,0 +1,54 @@
+.home-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-image: url('src/assets/notes.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bg-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(35, 35, 39, 0.7);  /* Adjusted for smoother look */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.content {
+  z-index: 2;
+  max-width: 600px;
+  text-align: center;
+  padding: 20px;  /* Additional padding for spacing */
+}
+
+.welcome-message {
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 20px;  /* Additional spacing */
+}
+
+.intro-text {
+  font-size: 1.2em;  /* Slightly reduced size for better readability */
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: #1aa1a8;  /* Custom Purple */
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #3bb2b9;  /* Darkened shade for hover */
+}
